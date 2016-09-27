@@ -1,0 +1,41 @@
+@CHARSET "UTF-8";
+
+boby{
+	padding: 0px;
+	margin: 0px;
+}
+
+
+.article{
+	
+	padding: 10px;
+	width: 500px
+}
+
+.article:nth-child(2n+0) {
+	background-color: #F3F3F4;
+}
+
+div {
+	color: #333333
+}
+
+.subject{
+	
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.creator {
+	font-size: 13px;
+	display: inline-block;
+}
+.creatDate {
+	font-size: 13px;
+	display: inline-block;
+}
+
+.contents{
+	text-overflow: ellipsis;
+	font-size: 12px;
+}

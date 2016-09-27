@@ -25,7 +25,7 @@ public class ArticleDaoImpl implements ArticleDao {
 		ResultSet rs = null;
 
 		try {
-			conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE", "ARTCL", "ARTCL");
+			conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE", "ARTCL", "artcl");
 
 			StringBuffer query = new StringBuffer();
 			query.append(" SELECT 	ARTCL_ID ");
@@ -91,7 +91,7 @@ public class ArticleDaoImpl implements ArticleDao {
 		PreparedStatement pstmt = null;
 
 		try {
-			conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE", "ARTCL", "ARTCL");
+			conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE", "ARTCL", "artcl");
 
 			StringBuffer query = new StringBuffer();
 			query.append(" INSERT INTO	ARTCL 	( ARTCL_ID ");
@@ -141,7 +141,7 @@ public class ArticleDaoImpl implements ArticleDao {
 		PreparedStatement pstmt = null;
 
 		try {
-			conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE", "ARTCL", "ARTCL");
+			conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE", "ARTCL", "artcl");
 
 			StringBuffer query = new StringBuffer();
 			query.append(" DELETE ");
@@ -184,7 +184,7 @@ public class ArticleDaoImpl implements ArticleDao {
 		ResultSet rs = null;
 
 		try {
-			conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE", "ARTCL", "ARTCL");
+			conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE", "ARTCL", "artcl");
 
 			StringBuffer query = new StringBuffer();
 			query.append(" SELECT 	ARTCL_ID ");

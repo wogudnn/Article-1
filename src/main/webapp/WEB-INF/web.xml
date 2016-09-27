@@ -9,4 +9,24 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>ViewArticleListServlet</display-name>
+    <servlet-name>ViewArticleListServlet</servlet-name>
+    <servlet-class>com.dangogea.web.ViewArticleListServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViewArticleListServlet</servlet-name>
+    <url-pattern>/article</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ViewWritePageServlet</display-name>
+    <servlet-name>ViewWritePageServlet</servlet-name>
+    <servlet-class>com.dangogea.web.ViewWritePageServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViewWritePageServlet</servlet-name>
+    <url-pattern>/write</url-pattern>
+  </servlet-mapping>
 </web-app>
